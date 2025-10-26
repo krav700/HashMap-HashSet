@@ -11,7 +11,7 @@
 - keys() - returns an array containing all the keys inside the hash map.
 - values() -  returns an array containing all the values.
 - entries() - returns an array that contains each key, value pair. 
-## Example:
+## entries() example:
 ```bash
 [[firstKey, firstValue], [secondKey, secondValue]]
 ```
@@ -26,7 +26,7 @@
 - clear() - removes all entries in the hash set.
 - keys() - returns an array containing all the keys inside the hash set.
 - entries() - returns an array that contains each key. 
-## Example: 
+## entries() example: 
 ```bash
 [[firstKey], [secondKey]]
 ```
