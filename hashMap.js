@@ -15,7 +15,7 @@ function HashMap(loadFactor = 0.75, capacity = 16) {
     }
 
     if (hashCode < 0 || hashCode >= buckets.length) {
-        throw new Error("Trying to access index out of bounds");
+      throw new Error("Trying to access index out of bounds");
     }
 
     return hashCode;
