@@ -1,5 +1,5 @@
 # HashMap
-HashMap function factory containing the following methods:
+## HashMap function factory containing the following methods:
 - hash(key) - takes a key and produces a hash code with it.
 - set(key, value) - takes two arguments: the first is a key, and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten
 - get(key) - takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return null.
