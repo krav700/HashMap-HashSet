@@ -92,10 +92,12 @@ function HashSet(loadFactor = 0.75, capacity = 16) {
       while (currentNode.nextNode != null) {
         if (currentNode.nextNode.value == key) {
           currentNode.nextNode = currentNode.nextNode.nextNode;
+          return true;
         }
       }
       if (currentNode.nextNode.value == key) {
         currentNode.nextNode = currentNode.nextNode.nextNode;
+        return true;
       }
     }
     return false;

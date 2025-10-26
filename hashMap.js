@@ -99,7 +99,7 @@ function HashMap(loadFactor = 0.75, capacity = 16) {
         bucket.removeAt(0);
         return true;
       }
-      while (currentNode.nextNode.nextNode != null) {
+      while (currentNode.nextNode != null) {
         if (Object.keys(currentNode.nextNode.value)[0] == key) {
           currentNode.nextNode = currentNode.nextNode.nextNode;
           return true;
@@ -132,7 +132,6 @@ function HashMap(loadFactor = 0.75, capacity = 16) {
     let keysArray = [];
     buckets.forEach((bucket) => {
       if (bucket.head.value != null) {
-        console.log(bucket.head);
         let currentNode = bucket.head;
         while (currentNode.nextNode != null) {
           keysArray.push(Object.keys(currentNode.value)[0]);
