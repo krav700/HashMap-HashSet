@@ -13,6 +13,11 @@ function HashMap(loadFactor = 0.75, capacity = 16) {
       hashCode = primeNumber * hashCode + key.charCodeAt(i);
       hashCode %= capacity;
     }
+
+    if (hashCode < 0 || hashCode >= buckets.length) {
+        throw new Error("Trying to access index out of bounds");
+    }
+
     return hashCode;
   }
 
