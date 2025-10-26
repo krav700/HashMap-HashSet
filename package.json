@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "hash-map",
+  "version": "1.0.0",
+  "description": "A Hash Map function factory with methods",
+  "main": "hashMap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krav700/HashMap.git"
+  },
+  "author": "krav70",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krav700/HashMap/issues"
+  },
+  "homepage": "https://github.com/krav700/HashMap#readme"
+}
