@@ -1,4 +1,4 @@
-import { LinkedList } from "../Linked-Lists/Linked_List.js";
+import { LinkedList } from "./Linked_List.js";
 
 function HashSet(loadFactor = 0.75, capacity = 16) {
     let buckets = new Array(capacity).fill(null).map(() => LinkedList());
